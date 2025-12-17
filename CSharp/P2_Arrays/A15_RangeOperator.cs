@@ -4,7 +4,7 @@ namespace P2_Arrays
 {
     internal class A15_RangeOperator
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string[] cities =
             {
