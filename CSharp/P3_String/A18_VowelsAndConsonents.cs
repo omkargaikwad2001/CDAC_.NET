@@ -8,7 +8,7 @@ namespace P3_String
 {
     internal class A18_VowelsAndConsonents
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string str = "Omkar";
             int vowelcnt = 0;
