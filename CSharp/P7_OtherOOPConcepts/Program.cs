@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //Assignment 1
             //A1_MyCalculation calc = new A1_MyCalculation();
