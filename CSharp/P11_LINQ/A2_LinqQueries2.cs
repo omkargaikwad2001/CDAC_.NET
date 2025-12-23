@@ -6,7 +6,7 @@ namespace P11_LINQ
 {
     internal class A2_LinqQueries2
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             List<string> list = new List<string>()
             {
