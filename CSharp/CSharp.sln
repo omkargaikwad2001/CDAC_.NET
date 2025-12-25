@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P15_OperatorOverloading", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P16_ADO", "P16_ADO\P16_ADO.csproj", "{F89C7BB8-93BE-4F5A-94EB-969229A9A564}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P17_EntityFramework", "P17_EntityFramework\P17_EntityFramework.csproj", "{7C82E42A-DDC8-455B-A370-C06B44F07299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P17_EntityFramework2", "P17_EntityFramework2\P17_EntityFramework2.csproj", "{4807F703-E6D7-4B6D-A42E-3371361D8444}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{F89C7BB8-93BE-4F5A-94EB-969229A9A564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F89C7BB8-93BE-4F5A-94EB-969229A9A564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F89C7BB8-93BE-4F5A-94EB-969229A9A564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C82E42A-DDC8-455B-A370-C06B44F07299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C82E42A-DDC8-455B-A370-C06B44F07299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C82E42A-DDC8-455B-A370-C06B44F07299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C82E42A-DDC8-455B-A370-C06B44F07299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4807F703-E6D7-4B6D-A42E-3371361D8444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4807F703-E6D7-4B6D-A42E-3371361D8444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4807F703-E6D7-4B6D-A42E-3371361D8444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4807F703-E6D7-4B6D-A42E-3371361D8444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
