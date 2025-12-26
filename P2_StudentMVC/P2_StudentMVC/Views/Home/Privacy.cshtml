@@ -1,0 +1,16 @@
+﻿@model P2_StudentMVC.Models.Student
+
+<h2>Privacy View</h2>
+
+@if (Model != null)
+{
+    <h3>Student Data</h3>
+    <p>Id: @Model.Id</p>
+    <p>Name: @Model.Name</p>
+    <p>Age: @Model.Age</p>
+    <p>Marks: @Model.Marks</p>
+}
+else
+{
+    <p>This view is returned using <b>View("Privacy")</b></p>
+}

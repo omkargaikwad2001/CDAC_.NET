@@ -48,3 +48,31 @@ appsettings.Local.json
 # Backup files
 *.bak
 *.tmp
+
+# -------- Extra ignored file extensions --------
+
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tlog
+*.lastbuildstate
+
+*.rsuser
+*.code-workspace
+
+*.coverage
+*.coveragexml
+
+*.bak
+*.old
+*.orig
+*.swp
+*.tmp
+
+*.pfx
+
+desktop.ini
+
+npm-debug.log*
+yarn-debug.log*
