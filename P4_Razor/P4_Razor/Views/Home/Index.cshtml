@@ -1,0 +1,182 @@
+﻿<h1>This is Razor Demo</h1>
+
+@DateTime.Now
+
+@{
+	int a1 = 10;
+	int b1 = 20;
+	int sum2 = a1+b1;
+
+	<h3>Sum = @sum2</h3>
+}
+
+@foreach (var i in new int[] { 1, 2, 3, 4, 5 })
+{
+	<h3>@i</h3>
+}
+
+@if (sum2 > 10)
+{
+	<h3>Sum is above 10</h3>
+}
+else
+{
+	<h3>Sum is above not 10</h3>
+}
+
+@*=================================================================*@
+
+@{
+    ViewData["Title"] = "Razor Practice";
+}
+
+<h1>This is Razor Demo</h1>
+
+<hr />
+
+<!-- Date & Time -->
+<h3>Current Date & Time: @DateTime.Now</h3>
+<h3>Date Only: @DateTime.Now.ToString("dd-MM-yyyy")</h3>
+
+<hr />
+
+<!-- Variables -->
+@{
+    int a = 10;
+    int b = 20;
+    int sum = a + b;
+}
+<h3>Sum = @sum</h3>
+
+<hr />
+
+<!-- If Else -->
+@if (sum > 20)
+{
+    <h3>Sum is greater than 20</h3>
+}
+else
+{
+    <h3>Sum is less than or equal to 20</h3>
+}
+
+<hr />
+
+<!-- Ternary Operator -->
+@{
+    int marks = 78;
+}
+<h3>Result: @(marks >= 40 ? "Pass" : "Fail")</h3>
+
+<hr />
+
+<!-- For Loop -->
+<h3>For Loop</h3>
+@for (int i = 1; i <= 5; i++)
+{
+    <p>Number: @i</p>
+}
+
+<hr />
+
+<!-- While Loop -->
+<h3>While Loop</h3>
+@{
+    int w = 1;
+}
+@while (w <= 3)
+{
+    <p>Value: @w</p>
+    w++;
+}
+
+<hr />
+
+<!-- Foreach with Array -->
+<h3>Foreach (Array)</h3>
+@foreach (var i in new int[] { 1, 2, 3, 4, 5 })
+{
+    <h4>@i</h4>
+}
+
+<hr />
+
+<!-- Foreach with List -->
+<h3>Foreach (List)</h3>
+@{
+    List<string> cities = new List<string>
+    {
+        "Pune", "Mumbai", "Delhi", "Nagpur"
+    };
+}
+
+<ul>
+    @foreach (var city in cities)
+    {
+        <li>@city</li>
+    }
+</ul>
+
+<hr />
+
+<!-- Switch Case -->
+<h3>Switch Case</h3>
+@{
+    int day = 3;
+}
+
+@switch (day)
+{
+    case 1:
+        <p>Monday</p>
+        break;
+    case 2:
+        <p>Tuesday</p>
+        break;
+    case 3:
+        <p>Wednesday</p>
+        break;
+    default:
+        <p>Invalid Day</p>
+        break;
+}
+
+<hr />
+
+<!-- Conditional CSS -->
+@{
+    int status = 1;
+}
+<p class="@(status == 1 ? "text-success" : "text-danger")">
+    Status Message
+</p>
+
+<hr />
+
+<!-- HTML Attribute with Razor -->
+@{
+    bool isDisabled = true;
+}
+<button disabled="@isDisabled">Submit</button>
+
+<hr />
+
+<!-- Raw HTML -->
+@Html.Raw("<strong>This text is rendered using Html.Raw</strong>")
+
+<hr />
+
+<!-- Even Numbers Task -->
+<h3>Even Numbers (1 to 20)</h3>
+@for (int i = 1; i <= 20; i++)
+{
+    if (i % 2 == 0)
+    {
+        <span>@i </span>
+    }
+}
+
+<hr />
+
+<!-- Razor Comment -->
+@* This is a Razor comment and will not appear in browser *@
