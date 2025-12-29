@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+   <div>My Application</div>
+   <div>
+       <li><a asp-action="Index" asp-controller="Home" >Home</a></li>
+       <li><a asp-action="Index" asp-controller="Admin" >Admin</a></li>
+   </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

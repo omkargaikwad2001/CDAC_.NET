@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@{
+    Html.RenderPartial("_DateTime");
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+@{
+    await Html.RenderPartialAsync("_DateTime");
+}
+
+<div>
+    Date using Tag:
+    <partial name="_DateTime" />
+</div>
+
+@section Tip{
+    <h5 style="color:Red">This is Confidential Page</h5>
+}
