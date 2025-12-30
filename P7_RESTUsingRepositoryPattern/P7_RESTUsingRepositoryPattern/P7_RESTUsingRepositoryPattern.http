@@ -1,0 +1,6 @@
+@P7_RESTUsingRepositoryPattern_HostAddress = http://localhost:5186
+
+GET {{P7_RESTUsingRepositoryPattern_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
